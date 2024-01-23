@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Watch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="background-images">
+      <img
+        id="morning-image"
+        src="./images/morning-image.jpg"
+        alt="Morning Image"
+      />
+      <img
+        id="afternoon-image"
+        src="./images/afternoon-image.jpg"
+        alt="Afternoon Image"
+      />
+      <img
+        id="evening-image"
+        src="./images/evening-image.jpg"
+        alt="Evening Image"
+      />
+      <img id="night-image" src="./images/night-image.jpg" alt="Night Image" />
+    </div>
+    <div class="container">
+      <h1>Digital Clock</h1>
+      <h3 id="day-of-week">It's</h3>
+      <div class="clock-container">
+        <div class="individual">
+          <span id="hour">00</span>
+          <span class="text">Hours</span>
+        </div>
+        <div class="individual">
+          <span id="minute">00</span>
+          <span class="text">Minutes</span>
+        </div>
+        <div class="individual">
+          <span id="second">00</span>
+          <span class="text">Seconds</span>
+        </div>
+        <div class="individual">
+          <span id="milisecond">00</span>
+          <span class="text">Mili-Seconds</span>
+        </div>
+
+        <div>
+          <span id="am-pm">AM</span>
+        </div>
+      </div>
+      <h4 id="greet"></h4>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
